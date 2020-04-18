@@ -1,6 +1,6 @@
 # 03 JavaScript: Password Generator
 
-Created an application that generates a random password based on user-selected criteria. This app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It also features a clean and polished user interface and responsive design, ensuring it adapts to multiple screen sizes.
+For homework assignment #3, I created an application that generates a random password based on user-selected criteria. This app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It also features a clean and polished user interface and responsive design, ensuring it adapts to multiple screen sizes.
 
 ## User Story
 ```
@@ -28,10 +28,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-The following image demonstrates the user design:
-
-![password generator demo]
-
 ## Deliverbles Include
+```
 * The URL of the deployed application.
 * The URL of the GitHub repository (with Readme).
