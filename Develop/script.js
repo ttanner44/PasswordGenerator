@@ -6,27 +6,13 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
     
   //Prompt for size and validate to confirm numeric and in proper range
+  pwlength = parseInt(prompt("How large to you want your password? (8-128 characters)"));
   
-  var validflag = 0;
-     
-  do {
-      pwlength = parseInt(prompt("How large to you want your password? (8-128 characters)"));
-        if(isNAN(pwlength) || pwlength < 8 || pwlength > 128) {
-          validflag = 0;
-        } else {
-          validflag = 1};
-        }
-    } while {
-      validflag = 0;
-    }
-  
-  var pwlength = parseInt(prompt("How large to you want your password? (8-128 characters)"));
-    if(isNAN(pwlength) {
-      parseInt(prompt("PLEASE ENTER A NUMERIC VALUE"));
-    } else {pwlength < 8 || pwlength > 128)
-      Return "PLEASE ENTER A NUMBER IN THE RANGE OF 1 ADN 128"
-    }
-
+  // Check to ensure entry is numeric and in the range of 8 to 128; if not return.
+  if (isNaN(pwlength) ||pwlength < 8 || pwlength > 128) {
+    alert("Error, not a valid. Please try again");
+    return;
+  }
 
   // "Confirm" function requires no validation as it's boolean
   var pwupper = confirm("Do you want UPPER CASE characters?... Click 'OK' for yes");
