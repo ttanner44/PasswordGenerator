@@ -2,6 +2,8 @@
 
 I created an application that generates a random password based on user-selected criteria. This app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It also features a clean and polished user interface and responsive design, ensuring it adapts to multiple screen sizes.
 
+https://ttanner44.github.io/PasswordGenerator/
+
 ## User Story
 ```
 AS AN employee with access to sensitive data
