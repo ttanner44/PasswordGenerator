@@ -28,4 +28,4 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-![Password Generator UI](./Assets/Capture.PNG)
+![Password Generator UI](./Assets/passwordGen.PNG)
