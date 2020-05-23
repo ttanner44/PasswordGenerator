@@ -28,7 +28,4 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-## Deliverbles Include
-```
-* The URL of the deployed application.
-* The URL of the GitHub repository (with Readme).
+![Password Generator UI](./Assets/Capture.PNG)
